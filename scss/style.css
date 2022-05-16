@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: 'atteron';
+  font-family: "atteron";
   src: url(/font/Atteron.ttf);
 }
 
@@ -37,6 +37,12 @@ section header {
           align-items: center;
 }
 
+section .wrapper-tag {
+  padding: none;
+  margin: none;
+  border: none;
+}
+
 section .logo {
   background-size: cover;
   background-image: url(/designs/logo.png);
@@ -46,9 +52,11 @@ section .logo {
   min-height: 54px;
 }
 
-section a {
+section .link {
   color: white;
   font-size: 18px;
+  border: 1px solid white;
+  padding: 10px 30px;
 }
 
 section p {
@@ -77,8 +85,17 @@ section img {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   text-align: left;
+}
+
+.projects .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: #15afca;
 }
 /*# sourceMappingURL=style.css.map */
