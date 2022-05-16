@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+section{
+    width:100%;
+    height: 100vh;
+    background-color: #141414;
+    
+    header {
+        height: 13vh;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: orange;
+        
+      }.logo{
+          width: 131px;
+          height: 75px;
+          background-image: url(/designs/logo.png);
+          background-position: center;
+      }a{
+          color: white;
+        
+      }
+      
+
+}
