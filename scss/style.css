@@ -14,6 +14,8 @@ section {
 }
 
 section header {
+  padding-right: 2.5%;
+  padding-left: 2.5%;
   height: 13vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,14 +31,33 @@ section header {
 }
 
 section .logo {
-  width: 131px;
-  height: 75px;
+  background-size: cover;
   background-image: url(/designs/logo.png);
-  background-position: center;
-  background-size: contain;
+  max-height: 66px;
+  max-width: 290px;
+  min-width: 238px;
+  min-height: 54px;
 }
 
 section a {
   color: white;
+}
+
+section p {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+}
+
+section img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -5%);
+          transform: translate(-50%, -5%);
+  width: 200px;
+  height: 300px;
+  max-width: 260px;
+  max-height: 381px;
 }
 /*# sourceMappingURL=style.css.map */
