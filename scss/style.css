@@ -7,9 +7,17 @@
   list-style: none;
 }
 
+@font-face {
+  font-family: 'atteron';
+  src: url(/font/Atteron.ttf);
+}
+
 section {
+  padding-right: 5%;
+  padding-left: 5%;
   width: 100%;
   height: 100vh;
+  border-bottom: 4px solid white;
   background-color: #141414;
 }
 
@@ -27,7 +35,6 @@ section header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: orange;
 }
 
 section .logo {
@@ -41,11 +48,13 @@ section .logo {
 
 section a {
   color: white;
+  font-size: 18px;
 }
 
 section p {
   color: white;
   text-align: center;
+  font-family: atteron;
   font-size: 55px;
 }
 
@@ -59,5 +68,17 @@ section img {
   height: 300px;
   max-width: 260px;
   max-height: 381px;
+}
+
+.projects p {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 30px;
+  color: white;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */

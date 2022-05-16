@@ -5,9 +5,16 @@
   text-decoration: none;
   list-style: none;
 }
+@font-face {
+  font-family: 'atteron';
+  src: url(/font/Atteron.ttf);
+}
 section {
+  padding-right: 5%;
+  padding-left: 5%;
   width: 100%;
   height: 100vh;
+  border-bottom: 4px solid white;
   background-color: #141414;
 
   header {
@@ -18,8 +25,8 @@ section {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
   }
+
   .logo {
     background-size: cover;
     background-image: url(/designs/logo.png);
@@ -28,25 +35,39 @@ section {
     min-width: 238px;
     min-height: 54px;
   }
+
   a {
     color: white;
+    font-size: 18px;
   }
-  p{
+
+  p {
     color: white;
     text-align: center;
+    font-family: atteron;
     font-size: 55px;
-  
-
   }
-img{
-  // centering img
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-5%);
-  width:200px;
-  height: 300px;
-  max-width: 260px;
-  max-height: 381px;
+
+  img {
+    // centering img
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    width: 200px;
+    height: 300px;
+    max-width: 260px;
+    max-height: 381px;
+  }
 }
+
+.projects {
+  p {
+    height:fit-content;
+    width: fit-content;
+    font-size: 30px;
+  
+    color: white;
+    text-align: left;
+  }
 }
