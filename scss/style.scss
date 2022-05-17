@@ -81,6 +81,7 @@ section {
 
   .half-1 {
     width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -98,10 +99,11 @@ section {
   }.about-png{
     max-height: 270px;
     max-width: 420px;
+    object-fit: contain;
   }.about-2{
 height: 420px;
-// img 
 width: 300px;
+object-fit: contain;
 
   }
   .half-2{
@@ -112,5 +114,19 @@ width: 300px;
     background-color: red;
     width: 50%;
     height: 100%;
+
+  }
+}
+
+@media (min-width:300px) and (max-width:600px) {
+  section{
+    padding-left: 0%;
+    padding-right: 0%;
+  }.logo{
+    width: 150px;
+    height: 34px;
+  }
+  .cta{
+    font-size:20px;
   }
 }
