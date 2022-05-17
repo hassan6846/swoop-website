@@ -83,6 +83,7 @@ section {
     width: 50%;
     height: 100%;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
   }
 
@@ -99,11 +100,11 @@ section {
   }.about-png{
     max-height: 270px;
     max-width: 420px;
-    object-fit: contain;
+    object-fit: cover;
   }.about-2{
 height: 420px;
 width: 300px;
-object-fit: contain;
+object-fit: cover;
 
   }
   .half-2{
@@ -111,14 +112,25 @@ object-fit: contain;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
+
     width: 50%;
     height: 100%;
 
   }
 }
-@media (min-width:300px) and (max-width:600px){
-  html{
-    display:none;
+@media (min-width:300px) and (max-width:600px) {
+
+  .section{
+    padding-left: 0%;
+    padding-right:0% ;
+  }
+  .about{
+    flex-direction: column;
+  }.about-png{
+    height:173px;
+    width:273px ;
+  }.about-2{
+    width: 200px;
+    height: 2900px;
   }
 }
