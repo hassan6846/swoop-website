@@ -109,9 +109,10 @@ section .hero-img {
   text-align: none;
 }
 
-.about .para {
+.about .texts {
   color: white;
   font-size: 18px;
+  margin-top: 20px;
 }
 
 .about .about-png {
@@ -119,8 +120,27 @@ section .hero-img {
   max-width: 420px;
 }
 
-.about .about-png-2 {
-  max-height: 425px;
-  max-width: 200px;
+.about .about-2 {
+  height: 420px;
+  width: 300px;
+}
+
+.about .half-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: red;
+  width: 50%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
