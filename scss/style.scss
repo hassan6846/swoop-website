@@ -117,16 +117,8 @@ object-fit: contain;
 
   }
 }
-
-@media (min-width:300px) and (max-width:600px) {
-  section{
-    padding-left: 0%;
-    padding-right: 0%;
-  }.logo{
-    width: 150px;
-    height: 34px;
-  }
-  .cta{
-    font-size:200px;
+@media (min-width:300px) and (max-width:600px){
+  html{
+    display:none;
   }
 }
