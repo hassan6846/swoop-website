@@ -118,4 +118,9 @@ section .hero-img {
   max-height: 270px;
   max-width: 420px;
 }
+
+.about .about-png-2 {
+  max-height: 425px;
+  max-width: 200px;
+}
 /*# sourceMappingURL=style.css.map */
