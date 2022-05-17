@@ -108,4 +108,14 @@ section .hero-img {
   font-size: 25px;
   text-align: none;
 }
+
+.about .para {
+  color: white;
+  font-size: 18px;
+}
+
+.about .about-png {
+  max-height: 270px;
+  max-width: 420px;
+}
 /*# sourceMappingURL=style.css.map */
