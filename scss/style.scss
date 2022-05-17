@@ -5,10 +5,12 @@
   text-decoration: none;
   list-style: none;
 }
+
 @font-face {
   font-family: "atteron";
   src: url(/font/Atteron.ttf);
 }
+
 section {
   padding-right: 5%;
   padding-left: 5%;
@@ -26,6 +28,7 @@ section {
     justify-content: space-between;
     align-items: center;
   }
+
   .wrapper-tag {
     padding: none;
     margin: none;
@@ -48,14 +51,14 @@ section {
     padding: 10px 30px;
   }
 
-  p {
+  .cta {
     color: white;
     text-align: center;
     font-family: atteron;
     font-size: 55px;
   }
 
-  img {
+  .hero-img {
     // centering img
     position: absolute;
     top: 50%;
@@ -66,4 +69,27 @@ section {
     max-width: 260px;
     max-height: 381px;
   }
+}
+
+.about {
+  width: 100%;
+  background-color: #141414;
+  height: 100vh;
+  // flex
+  display: flex;
+  flex-direction: row;
+
+  .half-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    color: white;
+    font-family: atteron;
+    font-size: 25px;
+    text-align: none;
+  }
+
 }

@@ -59,14 +59,14 @@ section .link {
   padding: 10px 30px;
 }
 
-section p {
+section .cta {
   color: white;
   text-align: center;
   font-family: atteron;
   font-size: 55px;
 }
 
-section img {
+section .hero-img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -78,24 +78,34 @@ section img {
   max-height: 381px;
 }
 
-.projects p {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  font-size: 40px;
-  color: white;
-  text-align: left;
-}
-
-.projects .wrapper {
+.about {
+  width: 100%;
+  background-color: #141414;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  height: 300px;
-  background-color: #15afca;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about .half-1 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about .heading {
+  color: white;
+  font-family: atteron;
+  font-size: 25px;
+  text-align: none;
 }
 /*# sourceMappingURL=style.css.map */
