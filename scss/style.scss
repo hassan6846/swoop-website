@@ -120,7 +120,7 @@ object-fit: cover;
 }
 @media (min-width:300px) and (max-width:600px) {
 
-  .section{
+  section{
     padding-left: 0%;
     padding-right:0% ;
   }
@@ -129,8 +129,23 @@ object-fit: cover;
   }.about-png{
     height:173px;
     width:273px ;
-  }.about-2{
-    width: 200px;
-    height: 2900px;
+  }.half-1{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+  }
+  .about-2{
+    height: 273px;
+    height: 173px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .half-1{
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+
   }
 }

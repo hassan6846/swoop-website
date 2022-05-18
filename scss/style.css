@@ -152,7 +152,7 @@ section .hero-img {
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
-  .section {
+  section {
     padding-left: 0%;
     padding-right: 0%;
   }
@@ -166,9 +166,29 @@ section .hero-img {
     height: 173px;
     width: 273px;
   }
+  .half-1 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+  }
   .about-2 {
-    width: 200px;
-    height: 2900px;
+    height: 273px;
+    height: 173px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 0 auto;
+  }
+  .half-1 {
+    width: 100%;
+    height: 50vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
