@@ -72,10 +72,12 @@ section .hero-img {
   left: 50%;
   -webkit-transform: translate(-50%, -5%);
           transform: translate(-50%, -5%);
-  width: 200px;
-  height: 300px;
-  max-width: 260px;
-  max-height: 381px;
+  width: 21.2vh;
+  height: 31.9vh;
+  max-width: 27.6vh;
+  max-height: 40.5vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
