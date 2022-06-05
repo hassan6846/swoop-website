@@ -36,26 +36,26 @@ section {
   }
 
   .logo {
-    background-size: cover;
+    background-size: contain;
     background-image: url(/designs/logo.png);
-    max-height: 66px;
-    max-width: 290px;
-    min-width: 238px;
-    min-height: 54px;
+    max-height: 6.38vh;
+    max-width: 30.8vh;
+    min-width: 25.3vh;
+    min-height: 5.75vh;
   }
 
   .link {
     color: white;
     font-size: 18px;
     border: 1px solid white;
-    padding: 10px 30px;
+    padding: 1vh 3.19vh;
   }
 
   .cta {
     color: white;
     text-align: center;
     font-family: atteron;
-    font-size: 7vh;
+    font-size: 8vh;
   }
 
   .hero-img {
@@ -68,11 +68,9 @@ section {
     height: 31.9vh;
     max-width: 27.6vh;
     max-height: 40.5vh;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
-
-
 
 @media (min-width: 300px) and (max-width: 600px) {
   .section {
@@ -86,5 +84,10 @@ section {
     padding-left: 0%;
     padding-right: 0%;
     height: 8vh;
+  }
+  .cta {
+    margin-top: 3vh;
+  }
+  .hero-img {
   }
 }
