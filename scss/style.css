@@ -12,88 +12,10 @@
   src: url(/font/Atteron.ttf);
 }
 
-section {
-  padding-right: 5%;
-  padding-left: 5%;
+.hero {
   width: 100%;
   height: 100vh;
   border-bottom: 4px solid white;
   background-color: #141414;
-}
-
-section header {
-  padding-right: 2.5%;
-  padding-left: 2.5%;
-  height: 13vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-section .wrapper-tag {
-  padding: none;
-  margin: none;
-  border: none;
-}
-
-section .logo {
-  background-size: contain;
-  background-image: url(/designs/logo.png);
-  max-height: 6.38vh;
-  max-width: 30.8vh;
-  min-width: 25.3vh;
-  min-height: 5.75vh;
-}
-
-section .link {
-  color: white;
-  font-size: 18px;
-  border: 1px solid white;
-  padding: 1vh 3.19vh;
-}
-
-section .cta {
-  color: white;
-  text-align: center;
-  font-family: atteron;
-  font-size: 8vh;
-}
-
-section .hero-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -5%);
-          transform: translate(-50%, -5%);
-  width: 21.2vh;
-  height: 31.9vh;
-  max-width: 27.6vh;
-  max-height: 40.5vh;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-@media (min-width: 300px) and (max-width: 600px) {
-  .section {
-    height: 100vh;
-    width: 100%;
-    padding-right: 0%;
-    padding-left: 0%;
-  }
-  header {
-    padding-left: 0%;
-    padding-right: 0%;
-    height: 8vh;
-  }
-  .cta {
-    margin-top: 3vh;
-  }
 }
 /*# sourceMappingURL=style.css.map */
