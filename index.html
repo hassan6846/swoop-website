@@ -1,50 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visual Pharmacy</title>
-  <link rel="stylesheet" href="sass/style.css">
-  <link rel="stylesheet" href="sass/reset.css">
-  <link rel="stylesheet" href="sass/navigation.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Pharmacy</title>
 
-<!-- menu -->
-<div class="navigation">
-<!-- toggle -->
-<input type="checkbox" class="checkbox" id="navi-toggle">
-<label for="navi-toggle" class="button">
-  <span class="icon"></span>
-</label>
-<!-- toggle -->
+    <link rel="stylesheet" href="/sass/main.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <div class="navigation">
+      <input
+        type="checkbox"
+        name="#"
+        hidden
+        class="navigation__check"
+        id="check"
+      />
+      <label for="check" class="btn">More..</label>
+      <nav>
+        <ul>
+          <li class="links"><a href="#" class="item">Hire Me</a></li>
+          <li class="links"><a href="#" class="item">Affilate </a></li>
+          <li class="links"><a href="#" class="item">Free Stuff</a></li>
+          <li class="links"><a href="#" class="item">Collections</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- hero-section -->
+    <section class="hero">
+      <a href="#" class="hero__wrapper"
+        ><img src="/imgs/logo.svg" alt="" class="logo"
+      /></a>
+      <img src="imgs/hero image.png" alt="hero__img" class="hero__img" />
+      <h1 class="hero__heading heading">Design AND Illustration POROTFOLIO</h1>
+    </section>
+    <!-- about section -->
+    <section class="about">
+      <p class="about__text">
+        MY MOST <br />
+        RECENT <br />
+        PROJECTS
+      </p>
+      <div class="about__wrapper">
+        <div class="about__item">
+          <img class="imgs" src="/imgs/about-img-1.png" alt="" />
+          <p class="item-text">Glitch</p>
+        </div>
+        <div class="about__item retro">
+          <img class="imgs" src="/imgs/about-img-2.png" alt="" />
+          <p class="item-text">Retro</p>
+        </div>
+        <div class="about__item">
+          <img class="imgs" src="/imgs/about-img-3.png" alt="" />
+          <p class="item-text">Computer Saved Me</p>
+        </div>
+      </div>
+    </section>
+    <!-- about me -->
+    <section class="about-me">
+      <div class="about-wrapper-1 ab-wrapper">
+        <p class="about-heading">About me</p>
+        <img src="imgs/about-me-1.png" class="about-img" alt="" />
+        <p class="about-txt">Khoni chi chi wa</p>
+      </div>
+      <div class="about-wrapper-2 ab-wrapper">
+        <img src="/imgs/about-me-2.png" class="about-2" alt="" srcset="" />
+        <p class="about-txt-2">Khoni chi chi wa</p>
+      </div>
+    </section>
+    <!-- pharmacy -->
+    <section class="shop">
+      <p class="shop__text">Visual Pharmacy</p>
+      <div class="shop__wrapper-row">
+        <!-- 1st -->
+        <div class="shop-item-wrapper">
+          <p>Mockups</p>
+          <img src="/imgs/shop-1.svg" alt="" />
+          <p>10+ LOW INK TEXTURES AND MOCKUPS</p>
+        </div>
+        <!-- 2nd -->
+        <div class="shop-item-wrapper">
+          <p>Icons</p>
+          <img src="/imgs/shop-2.svg" alt="" />
+          <p>100+ Icons assets pack</p>
+        </div>
+        <!-- 3rd -->
+        <div class="shop-item-wrapper">
+          <p>Illustrations</p>
+          <img src="/imgs/shop-3.svg" alt="" />
+          <p>Art poster</p>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+    <section class="end">
+      <div class="end__wrapper">
+        <p class="end__text">
+          LET’S WORK <br class="end-br" />
+          Togeter <br />
+          <span class="spaned">Swoop</span>
+        </p>
+        <img
+          src="/imgs/svg end.svg"
+          alt="end__img"
+          class="end__img"
+          srcset=""
+        />
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <nav>
+        <div class="nav-wrapper-1">
+          <a href="#">Site Map</a>
+          <a href="#">Terms</a>
+          <a href="#">Privary</a>
+          <a href="#">User Permission</a>
+          <a href="#">Visual Pharmacy</a>
+          <a href="#">Social Media</a>
+        </div>
+        <div class="nav-wrapper-2">
+          <a href="#">Blogger</a>
+          <a href="#">Back To Top <i></i></a>
+        </div>
+      </nav>
+    </footer>
 
-<div class="bg"></div>
-<!-- nav -->
-<nav class="navigation__nav  nav">
-  <ul class="navigation__list list">
-      <li class="item"><a href="#" class="link"><span>01</span>About Natous</a></li>
-      <li class="item   item"><a href="#" class="link"><span>02</span>Your benfits</a></li>
-      <li class="item"><a href="#" class="link"><span>03</span>Popular tours</a></li>
-      <li class="item"><a href="#" class="link"><span>04</span>Stories</a></li>
-      <li class="item"><a href="#" class="link"><span>05</span>Book now</a></li>
-      </ul>
-</nav>
-</div>
-
-
-
-
-
-<!-- menu -->
-  <section class="hero">
-<a href="#" class="wrapper-tag"><div class="hero__logo-box"><img src="/designs/logo.png" class="hero__logo" alt="" srcset=""></div></a>
-<div class="text-box"><p>Design And <br> <span>Illustruted</span> <br> Porotfolio</p></div>
-<!-- hero image -->
-<div class="hero__image-box"> <img src="designs/hero.png" class="logo" alt="" srcset=""><div>
-  </section>
-
-  <section class="about">Page2</section>
-</body>
+    <script src="script.js"></script>
+    <h1 class="ipad">Ipad</h1>
+  </body>
 </html>

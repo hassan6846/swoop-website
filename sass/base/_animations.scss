@@ -1,0 +1,22 @@
+// letter spacing animation
+@keyframes letter {
+  0% {
+    letter-spacing: 0;
+  }
+  50% {
+    letter-spacing: 0.5rem;
+  }
+  100% {
+    letter-spacing: 0;
+  }
+}
+// line height animating
+@keyframes lines {
+  0% {
+    line: height 0rem ;
+  }
+ 
+  100% {
+    line-height: 1.7rem;
+  }
+}

@@ -1,0 +1,91 @@
+.about-me {
+  padding: 6rem;
+  height: 100vh;
+  width: 100%;
+  background-color: #141414;
+  // responsive
+  display: flex;
+  flex-direction: row;
+  @media (min-width: 100px) and (max-width: 600px) {
+    height: 100vh;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .about-wrapper-1 {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    // responsive shit
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    align-items: flex-start;
+    padding: 2rem;
+    @media (min-width: 300px) and (max-width: 630px) {
+      width: 100%;
+      align-items: center;
+      height: fit-content;
+      gap: 0.3rem;
+    }
+  }
+  .about-wrapper-2 {
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+
+    // responsive shit
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (min-width: 300px) and (max-width: 630px) {
+      width: 100%;
+      padding: 2rem;
+      gap: 1rem;
+      height: fit-content;
+    }
+  }
+  .about-heading {
+    font-family: head;
+    color: white;
+    font-size: 5rem;
+  }
+  .about-img {
+    object-fit: cover;
+    @media (min-width: 300px) and (max-width: 600px) {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      padding: 1rem;
+    }
+    .about-2 {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      padding: 1rem;
+      @media (min-width: 300px) and (max-width: 630px) {
+      }
+    }
+  }
+
+  .about-txt {
+    margin-top: -5%;
+    @media (min-width: 300px) and (max-width: 600px) {
+      margin-top: 1%;
+    }
+  }
+}
+@media (width:810px) and (height:1080px) {
+
+.ipad{
+  position: absolute;
+text-align: center;  display: block;
+top: 30%;
+justify-self: center;
+
+font-size: 30rem;
+
+}
+}
