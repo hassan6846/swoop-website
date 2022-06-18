@@ -370,7 +370,6 @@ body {
 .about-me .about-wrapper-1 {
   height: 100%;
   width: 50%;
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -401,7 +400,6 @@ body {
 .about-me .about-wrapper-2 {
   height: 100%;
   width: 50%;
-  background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -647,5 +645,16 @@ body {
   .end .end__img {
     scale: 0.8;
   }
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  gap: 3rem;
 }
 /*# sourceMappingURL=main.css.map */
