@@ -20,3 +20,13 @@
     line-height: 1.7rem;
   }
 }
+// img animation
+@keyframes height {
+  
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}

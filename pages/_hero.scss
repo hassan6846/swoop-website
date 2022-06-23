@@ -1,8 +1,11 @@
 .hero {
   @include fwh;
   background-color: $bg;
+
+ 
   &__img {
     @include absCenter;
+    animation: height ease-in-out  ;
   }
   &__heading {
     font-family: head;
@@ -33,3 +36,4 @@
     }
   }
 }
+
